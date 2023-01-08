@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+}
+
+section{
+    margin-bottom: 45px;
+}
+
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    padding: 20px 25px;
+
+color: #FFFFFF;
+}
+
+.header-col{
+    background-image: url(../images/banner/banner2.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+.header-sub-title {
+    text-align: right;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 55px;
+    color: #151414;
+}
+.header-description {
+    color: #444343;
+    margin-bottom: 30px;
+    text-align: right;
+    
+}
+.header-content-full{
+    top: 1px;
+    text-align: right;
+    position: absolute;
+    width: 600px;
+    height: 230px;
+    right: 30px;
+}
+
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 500px;
+}
+.failure-content{
+    margin-top: 230px;
+}
+.failure-content ul {
+    list-style: none;
+}
+
+.failure-content ul li:before{
+    content: '✓';
+}
+
+.failure{
+    display: flex;
+    gap: 87px;
+    
+}
+
+.failure-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failure-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/* plans style */
+
+
+.plans-container{
+    width: 87%;
+    margin: 10px auto;
+    display: flex;
+    gap: 86px;
+    margin-top: 55px;
+    
+}
+.my-plan .section-description{
+    text-align: center;
+}
+.plan{
+    background: #FFFFFF;
+    text-align: center;
+    width: 300px;
+    
+}
+
+.plan-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    
+}
+
+.plan-description{
+    color: #737272;;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 55.7px;
+    text-align: center;
+}
+/* positive mindset */
+
+.gradient{
+    background-image: 
+    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+    url(../images/watch.png), url(../images/gradient3.png);
+    width: 1140px;
+    height: 300px;
+    margin-left: 70px;
+    border-radius: 8px;
+}
+
+.gradient-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+
+}
+
+/* footer styles */
+
+.footer{
+    display: flex;
+    gap: 331px;
+    background: #151414;
+    padding: 56px 170px;
+}
+.footer .footer-title{
+    text-align: left;
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.footer input[type="text"], input[type="email"]{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 21px 20px;
+    
+}
+.footer a{
+    text-decoration: none;
+    
+}
+.footer-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.sub-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+.btn-footer{
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 36px;
+}    
